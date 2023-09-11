@@ -190,8 +190,8 @@ sources = ["https://www.example1.com",
            "https://www.example2.com", "https://www.example3.com"]
 sentiment_model = "distilbert-base-uncased-finetuned-sst-2-english"
 topic_model = "distilbert-base-uncased-finetuned-sst-2-english"
-summarizer_model = "t5-base"
-summarizer_tokenizer = "t5-base"
+summarizer_model = "ctrl"
+summarizer_tokenizer = "ctrl"
 content_model = "gpt2"
 distribution_platforms = ["website", "blog",
                           "social media", "content aggregator"]
